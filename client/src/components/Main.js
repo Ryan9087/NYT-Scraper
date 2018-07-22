@@ -3,6 +3,8 @@ import Saved from "./Saved";
 import Search from "./Search";
 import Results from "./Results";
 import API from "../utils/api";
+import './main.css';
+
 
 class Main extends Component {
 
@@ -14,7 +16,7 @@ class Main extends Component {
     saved: []
   };
 
-  // When the component mounts, get a list of all saved articles and update this.state.saved
+
   componentDidMount() {
     this.getSavedArticles()
   }
@@ -141,10 +143,6 @@ class Main extends Component {
           </div>
           <footer>
             <hr />
-            <p className="pull-right">
-              <i className="fa fa-github" aria-hidden="true"></i>
-              Proudly built using React.js
-            </p>
           </footer>
         </div>
       </div>

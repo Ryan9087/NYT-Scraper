@@ -8,7 +8,8 @@ const Search = props =>
           <div className="panel-heading">
             <h3 className="panel-title">
               <strong>
-                <i className="fa fa-search" aria-hidden="true"></i> Search
+                Search
+                <hr/>
               </strong>
             </h3>
           </div>
@@ -41,7 +42,7 @@ const Search = props =>
           <div className="panel-heading">
             <h3 className="panel-title">
               <strong>
-                <i className="fa fa-newspaper-o" aria-hidden="true"></i> Results
+               Results
               </strong>
             </h3>
           </div>
